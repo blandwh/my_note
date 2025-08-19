@@ -1,0 +1,29 @@
+site_name: blandwh's Notebook
+
+nav: 
+  - Home: index.md
+  - About: about.md
+
+theme:
+  name: material
+  #favicon: assets/ayanami.png
+
+  features: 
+    - navigation.tabs
+  
+  palette:
+    # 日间模式
+    - scheme: default
+      primary: 'teal'
+      accent: 'black'
+      toggle:
+        icon: material/weather-sunny # 日间模式图标
+        name: Switch to dark mode  # 鼠标悬停时显示的文字
+
+    # 夜间模式
+    - scheme: slate
+      primary: 'black'
+      accent: 'lime'
+      toggle:
+        icon: material/weather-night # 夜间模式图标
+        name: Switch to light mode  # 鼠标悬停时显示的文字
