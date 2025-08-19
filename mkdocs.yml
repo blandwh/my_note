@@ -1,5 +1,5 @@
 site_name: blandwh's Notebook
-site_url: https://blandwh.github.io/my_note/
+site_url: https://blandwh.github.io/my_notemkdocs gh-deploy/
 
 nav: 
   - Home: index.md
