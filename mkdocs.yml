@@ -1,4 +1,5 @@
 site_name: blandwh's Notebook
+site_url: https://blandwh.github.io/my_note/
 
 nav: 
   - Home: index.md
