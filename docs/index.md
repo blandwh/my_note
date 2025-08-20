@@ -1,17 +1,7 @@
-# Welcome to My Notebook
+# **Welcome to blandwh's Notebook**
 
-Ciallo～(∠・ω< )
+Ciallo～(∠・ω< )，这是 blandwh 的笔记本，可能会不定期更新！
 
-## Commands
+# **About me**
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
-
-## Project layout
-
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+- [My GitHub](https://github.com/blandwh)

@@ -3,7 +3,8 @@ site_url: https://blandwh.github.io/my_notemkdocs gh-deploy/
 
 nav: 
   - Home: index.md
-  - About: about.md
+  #- About: about.md
+  
 
 theme:
   name: material
