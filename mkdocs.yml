@@ -1,31 +1,71 @@
-site_name: blandwh's Notebook
-site_url: https://blandwh.github.io/my_notemkdocs gh-deploy/
+site_name: blandwh的笔记本
+site_url: https://blandwh.github.io/my_note/
+# edit_uri: tree/master/docs  #每个文档的顶部显示一个编辑按钮，""则隐藏
+site_description: blandwh的笔记本
+remote_branch: main
+copyright: Copyright &copy; 2025 <a href="https://github.com/blandwh"  target="_blank" rel="noopener">blandwh</a>
 
-nav: 
-  - Home: index.md
-  #- About: about.md
-  
-
-theme:
+theme: 
   name: material
-  #favicon: assets/ayanami.png
-
-  features: 
+  language: zh
+  features:
+    - content.code.annotate
+    - navigation.tracking
     - navigation.tabs
-  
-  palette:
-    # 日间模式
-    - scheme: default
-      primary: 'teal'
-      accent: 'black'
+    - navigation.indexes
+    - navigation.top
+  font:
+    text: LXGW WenKai Screen
+    code: JetBrains Mono
+  palette:     #切换昼夜模式的颜色，审美差就用默认，专业点就自定义
+    - media: "(prefers-color-scheme: light)" 
+      scheme: default  #配色方案：浅色模式
+      primary: teal  #原色，默认蓝，用于标题、侧边栏、文本链接和其他几个组件
+      accent: teal  #强调色，默认蓝，可以交互的元素如悬停链接、按钮和滚动条
       toggle:
-        icon: material/weather-sunny # 日间模式图标
-        name: Switch to dark mode  # 鼠标悬停时显示的文字
+        icon: material/weather-sunny #图标，太阳
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"  
+      scheme: slate  #配色方案：深色模式
+      # primary: Brown  #原色，默认蓝，用于标题、侧边栏、文本链接和其他几个组件
+      toggle:
+        icon: material/weather-night  #图标，月亮
+        name: Switch to light mode
 
-    # 夜间模式
-    - scheme: slate
-      primary: 'black'
-      accent: 'lime'
-      toggle:
-        icon: material/weather-night # 夜间模式图标
-        name: Switch to light mode  # 鼠标悬停时显示的文字
+
+markdown_extensions:
+  - toc:
+      permalink: true
+      toc_depth: 4
+  - meta
+  - def_list
+  - attr_list
+  - md_in_html
+  - sane_lists
+  - admonition
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.snippets
+  - pymdownx.magiclink
+  - pymdownx.superfences
+  - pymdownx.inlinehilite
+  - pymdownx.smartsymbols  #智能符号
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight:
+      anchor_linenums: true
+  - pymdownx.arithmatex:
+      generic: true
+
+nav:
+  - Home:
+    - index.md
+    
