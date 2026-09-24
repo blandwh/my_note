@@ -113,7 +113,7 @@ nav:
       - 线性代数示例: course-notes/linear-algebra.md
   - Paper Note:
       - paper-notes/index.md
-      - 阅读笔记模板: paper-notes/template.md
+      - LOVON: paper-notes/lovon.md
   - 杂项 Misc:
       - misc/index.md
       - MkDocs 使用指南: misc/mkdocs-guide.md
