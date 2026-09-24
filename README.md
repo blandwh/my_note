@@ -21,8 +21,7 @@ docs/
 ├── paper-notes/   # 论文阅读
 ├── misc/          # 杂项与工具记录
 ├── assets/        # 图片等静态资源
-├── index.md       # 首页
-└── about.md       # 关于页面
+└── index.md       # 首页
 ```
 
 新增页面后，需要同步更新 `mkdocs.yml` 中的 `nav` 导航。
