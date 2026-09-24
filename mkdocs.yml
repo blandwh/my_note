@@ -110,7 +110,16 @@ nav:
   - 首页: index.md
   - 课程笔记:
       - course-notes/index.md
-      - 线性代数示例: course-notes/linear-algebra.md
+      - 计算机网络: 
+          course-notes/network/introduction.md
+      - 自然语言处理:
+          course-notes/nlp/introduction.md
+      - 汇编与接口:
+          course-notes/assembly/introduction.md
+      - CS231n:
+          course-notes/cs231n/introduction.md
+      - CS224n:
+          course-notes/cs224n/introduction.md
   - Paper Note:
       - paper-notes/index.md
       - LOVON: paper-notes/lovon.md

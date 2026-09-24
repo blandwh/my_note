@@ -1,19 +1,13 @@
 # 课程笔记
 
-这里按照课程组织系统化笔记。每门课程建议包含知识地图、章节笔记、作业复盘和期末速查四类内容。
+大三及之后的部分课程笔记。
 
 ## 课程列表
 
 | 课程 | 内容 | 状态 |
 | --- | --- | --- |
-| [线性代数](linear-algebra.md) | 向量空间、矩阵、特征值 | 示例 |
-
-!!! tip "推荐的目录方式"
-    当一门课的内容变多时，可以建立 `docs/course-notes/课程名/` 子目录，并用 `index.md` 作为该课程的入口页。
-
-## 学习流程
-
-1. 课前记录问题和预习时不理解的概念。
-2. 课中只抓结构、关键结论与老师强调的内容。
-3. 课后补全推导，并用自己的话写一遍。
-4. 复习时把易错点收敛为检查清单。
+| [计算机网络](./network/introduction.md) | 计算机网络 | 施工中 |
+| [自然语言处理](./nlp/introduction.md) | 自然语言处理 | 施工中 |
+| [汇编与接口](./assembly/introduction.md) | 汇编与接口 | 施工中 |
+| [CS231n](./cs231n/introduction.md) | CNN for Visual Recognition | 施工中 |
+| [CS224n](./cs224n/introduction.md) | Natural Language Processing | 施工中 |
