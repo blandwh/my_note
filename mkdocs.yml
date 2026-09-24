@@ -1,0 +1,120 @@
+# yaml-language-server: $schema=https://squidfunk.github.io/mkdocs-material/schema.json
+
+site_name: blandwh 的笔记本
+site_description: 课程笔记、论文阅读与日常记录
+site_author: blandwh
+site_url: https://blandwh.github.io/my_note/
+
+repo_name: blandwh/my_note
+repo_url: https://github.com/blandwh/my_note
+edit_uri: edit/main/docs/
+
+copyright: Copyright &copy; 2025–2026 blandwh
+
+theme:
+  name: material
+  language: zh
+  logo: assets/ayanami.png
+  favicon: assets/ayanami.png
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.indexes
+    - navigation.top
+    - navigation.tracking
+    - toc.follow
+    - search.suggest
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.code.annotate
+  font:
+    text: Noto Sans SC
+    code: JetBrains Mono
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/weather-night
+        name: 切换到深色模式
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: 切换到浅色模式
+
+plugins:
+  - search:
+      lang:
+        - zh
+        - en
+
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - meta
+  - sane_lists
+  - toc:
+      permalink: true
+      toc_depth: 4
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/blandwh
+      name: GitHub
+    - icon: material/email-outline
+      link: mailto:ayanamireiwx@gmail.com
+      name: Email
+  generator: false
+
+nav:
+  - 首页: index.md
+  - 课程笔记:
+      - course-notes/index.md
+      - 线性代数示例: course-notes/linear-algebra.md
+  - Paper Note:
+      - paper-notes/index.md
+      - 阅读笔记模板: paper-notes/template.md
+  - 杂项 Misc:
+      - misc/index.md
+      - MkDocs 使用指南: misc/mkdocs-guide.md
+  - 关于: about.md
