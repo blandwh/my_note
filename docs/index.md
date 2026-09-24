@@ -40,6 +40,6 @@ hide:
 
 [:fontawesome-brands-github: GitHub](https://github.com/blandwh){ target="_blank" }
 [:material-email-outline: Gmail](mailto:ayanamireiwx@gmail.com)
-[:material-school-outline: ZJU Email](mailto:3240105429@zju.edu.cn)
+[:material-school-outline: ZJU Email](mailto:guomingyangwx@zju.edu.cn)
 
 </div>
