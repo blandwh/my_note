@@ -62,5 +62,20 @@ $$
 
 ## 数据收集
 
+总共有两种数据，visual-track data 以及 video question answering data。visual-track data 根据不同难度划分为三档，分别是粗粒度简单目标追踪，细粒度复杂目标追踪以及歧义追踪（比如：追踪你看到的第一个人）。video question answer 则包含人物识别以及开放世界问答两种数据。
+
+## 实验分析
+
+文章当中涉及到的指标：
+
+| 指标 | 含义 | 趋势 |
+|---|---|---|
+| **EL** (Episode Length) | 一次跟踪平均持续多少步；Gym-UnrealCV 上限为 500 步 | 越高越好 |
+| **SR** (Success Rate) | 成功的 episode 占比 | 越高越好 |
+| **TR** (Tracking Rate) | 整个过程中，成功跟住目标的时间步占比 | 越高越好 |
+| **CR** (Collision Rate) | 因与目标碰撞而结束的 episode 占比 | 越低越好 |
+| **ACC** | 识别任务的正确率 | 越高越好 |
+| **FPS** | 每秒处理帧数 | 越高越快 |
+
 
 

@@ -7,3 +7,4 @@
 | 论文 | 方向 | 
 | --- | --- |
 | [LOVON](lovon.md) | 具身智能 |
+| [TrackVLA](trackVLA.md) | 具身智能 |
