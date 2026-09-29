@@ -123,6 +123,8 @@ nav:
   - Paper Note:
       - paper-notes/index.md
       - LOVON: paper-notes/lovon.md
+      # - Qwen-RobotManip: paper-notes/qwen-robotmanip.md
+      - TrackVLA: paper-notes/trackVLA.md
   - 杂项 Misc:
       - misc/index.md
       - MkDocs 使用指南: misc/mkdocs-guide.md
