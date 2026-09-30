@@ -5,7 +5,7 @@
 ## 内容索引
 
 - [MkDocs 使用指南](mkdocs-guide.md)：本地预览、新增页面与发布流程。
-- [PyTorch 相关知识](pytorch.md)
+- [PyTorch 相关知识](./PyTorch/pytorch-fast.md)
 
 ## 分类
 
