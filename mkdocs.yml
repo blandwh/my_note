@@ -128,6 +128,7 @@ nav:
   - 杂项 Misc:
       - misc/index.md
       - MkDocs 使用指南: misc/mkdocs-guide.md
-      - PyTorch 相关: 
-          Pytorch 相关流程速查: misc/PyTorch/pytorch-fast.md
-          Tensor 相关: misc/PyTorch/tensor.md
+      - PyTorch:
+          - misc/PyTorch/index.md
+          - 流程速查: misc/PyTorch/pytorch-fast.md
+          - Tensor 相关: misc/PyTorch/tensor.md
