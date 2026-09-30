@@ -128,3 +128,4 @@ nav:
   - 杂项 Misc:
       - misc/index.md
       - MkDocs 使用指南: misc/mkdocs-guide.md
+      - PyTorch 相关: misc/pytorch.md
