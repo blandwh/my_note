@@ -133,3 +133,4 @@ nav:
           - 流程速查: misc/PyTorch/pytorch-fast.md
           - Tensor 相关: misc/PyTorch/tensor.md
           - 数据集相关: misc/PyTorch/dataset.md
+          - Transform 相关: misc/PyTorch/transform.md
