@@ -135,3 +135,4 @@ nav:
           - 数据集相关: misc/PyTorch/dataset.md
           - Transform 相关: misc/PyTorch/transform.md
           - 搭建神经网络: misc/PyTorch/network.md
+          - 自动微分: misc/PyTorch/autograd.md
