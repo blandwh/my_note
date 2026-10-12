@@ -136,3 +136,4 @@ nav:
           - Transform 相关: misc/PyTorch/transform.md
           - 搭建神经网络: misc/PyTorch/network.md
           - 自动微分: misc/PyTorch/autograd.md
+          - 模型参数优化: misc/PyTorch/optimizing.md

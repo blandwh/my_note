@@ -1,6 +1,6 @@
 # Automatic Differentiation
 
-由于训练流程在 [流程速看](./pytorch-fast.md) 当中都有了，所以
+由于训练流程在 [流程速看](./pytorch-fast.md) 当中都有了，所以下面介绍下部分额外的细节。
 
 需要知道张量和普通的向量是不同的，张量不仅仅有数值信息，同时也可能带有计算记录。`print(loss.grad_fn)` 使用这种形式，可以打印张量对应的计算记录。
 
