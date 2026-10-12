@@ -5,7 +5,8 @@
 ## 内容索引
 
 - [MkDocs 使用指南](mkdocs-guide.md)：本地预览、新增页面与发布流程。
-- [PyTorch](PyTorch/index.md)：流程速查与 Tensor 笔记。
+- [PyTorch](PyTorch/index.md)：基于官方文档的笔记。
+- [Jev](Jev/index.md)：Jev 相关学习笔记。
 
 ## 分类
 
